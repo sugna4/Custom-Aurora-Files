@@ -7,7 +7,7 @@
 			<set name="keywords">poison,ingest</set>
 			<set name="category">Poison</set>
 			<set name="cost" currency="gp">2</set>
-			<set name="weight" lb="0.25">¼ lb.</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 		<sheet alt="VB (Ingested)" />
