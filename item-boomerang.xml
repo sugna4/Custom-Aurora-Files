@@ -1,0 +1,17 @@
+<elements>
+    <element name="Boomerang" type="Weapon" source="Sammy G" id="ID_WOTC_PHB_WEAPON_BOOMERANG">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BOOMERANG</set>
+		</setters>
+	</element>
+</elements>

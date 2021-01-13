@@ -1,0 +1,15 @@
+<elements>
+<element name="VB" type="Item" source="Sammy G" id="ID_WOTC_DMG_ITEM_POISON_VB">
+		<description>
+			<p>It is the beer of the gods and is liquid gold in its purest form.</p>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="0.25">¼ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="VB (Ingested)" />
+	</element>
+</elements>

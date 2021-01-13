@@ -1,0 +1,16 @@
+<elements>
+
+	
+	<element name="Australian" type="Language" source="Angus H" id="ID_LANGUAGE_AUSSIE">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by mad cunts from the outback</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Aussies</set>
+			<set name="script">Australian</set>
+		</setters>
+	</element>
+
+</elements>
