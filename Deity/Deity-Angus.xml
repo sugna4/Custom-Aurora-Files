@@ -1,0 +1,18 @@
+<elements>
+
+	<element name="Angus" type="Deity" source="Angus H" id="ID_WOTC_PHB_DEITY_ANGUS">
+		<description>
+			<p class="flavor">the one true god</p>
+		</description>
+		<setters>
+			<set name="setting">Outdoors</set>
+			<set name="alignment">Hell</set>
+			<set name="domains">Outside</set>
+			<set name="symbol">Carabiner</set>
+			<set name="gender">Male</set>
+		</setters>
+		<sheet>
+			<description>The One True God</description>
+		</sheet>
+	</element>
+</elements>
