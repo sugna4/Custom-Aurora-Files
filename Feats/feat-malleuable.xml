@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>Chronicles of Angus</description>
+		<author url="">Wizards of the Code</author>
+		<update version="0.0.2">
+			<file name="" url="" />
+		</update>
+	</info>
+    <element name="Malleuable" type="Feat" source="Angus H" id="ID_WOTC_UA_FEAT_MALLEUABLE">
+		<description>
+			<p>Your skin moves and shifts under touch:</p>
+			<ul>
+				<li>Blows are lessened and you are harder to hit, as well as being more agile and faster.</li>
+				<li>Despite this, you are less dexterous when using hand items.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Take +1 strength, +2ft speed, take hand dexterity and hits as DM choice.</description>
+		</sheet>
+	</element>
+</elements>
