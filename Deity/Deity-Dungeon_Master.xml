@@ -1,0 +1,18 @@
+<elements>
+
+	<element name="Dungeon Master" type="Deity" source="Angus H" id="ID_WOTC_PHB_DEITY_DM">
+		<description>
+			<p class="flavor">The Feared one</p>
+		</description>
+		<setters>
+			<set name="setting">Outside Understanding</set>
+			<set name="alignment">Self</set>
+			<set name="domains">You</set>
+			<set name="symbol">Dice</set>
+			<set name="gender">Unknown</set>
+		</setters>
+		<sheet>
+			<description>They who wield gods as if they were paintbrushes, They who can give, and they who can taketh away.</description>
+		</sheet>
+	</element>
+</elements>

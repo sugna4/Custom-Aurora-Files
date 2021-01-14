@@ -1,0 +1,16 @@
+<elements>
+
+
+	<element name="Engine" type="Language" source="Angus H" id="ID_LANGUAGE_ENGINE">
+		<supports>Exotic</supports>
+		<description>
+			<p>only spoken by those that go vroom. or those who understand how the vroom go.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Anything with an Engine</set>
+			<set name="script">Engine</set>
+		</setters>
+	</element>
+
+</elements>
