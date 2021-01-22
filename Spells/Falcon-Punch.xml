@@ -1,0 +1,25 @@
+<elements>
+
+<element name="Falcon Punch" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FALCON_PUNCH">
+  <supports>Sorcerer, Wizard, Artificer</supports>
+  <description>
+    <p>Scream "FALCON PUNCHH" in the direction of your DM, your next weapon attack during the duration of the spell, hits with the force of 1000 falcons. The attacks deals an extra 1d6 fire damage and the creature must succeed a strength saving throw or else be knocked prone or pushed 5ft away (player choice). A large or larger creature has advantage on this saving throw however. </p>
+    <p class="indent">When you cast this spell using a spell slot of 2nd level or higher, add an extra 1d6 for every slot above 1st</p>
+  </description>
+  <setters>
+    <set name="keywords">punch</set>
+    <set name="level">1</set>
+    <set name="school">Evocation</set>
+    <set name="time">1 bonus action</set>
+    <set name="duration">Concentration, up to 1 minute</set>
+    <set name="range">self</set>
+    <set name="hasVerbalComponent">true</set>
+    <set name="hasSomaticComponent">false</set>
+    <set name="hasMaterialComponent">true</set>
+    <set name="materialComponent" />
+    <set name="isConcentration">true</set>
+    <set name="isRitual">true</set>
+  </setters>
+</element>
+
+</elements>

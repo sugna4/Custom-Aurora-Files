@@ -1,0 +1,15 @@
+<elements>
+<element name="Carlton Dry" type="Item" source="Angus H" id="ID_WOTC_DMG_ITEM_POISON_CD">
+		<description>
+			<p>not for those considered lighthearted. Beer for the boys. </p>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">3</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Carlton Dry (Ingested)" />
+	</element>
+</elements>

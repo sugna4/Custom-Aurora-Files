@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the mighty coder Angus</description>
+		<author url="">Wizards of the Code</author>
+		<update version="0.0.3">
+			<file name="companions.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Mini Me" type="Companion" source="Angus H" id="ID_WOTC_PHB_MINIME">
+		<description />
+		<setters>
+			<set name="strength">12</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">5</set>
+			<set name="wisdom">11</set>
+			<set name="charisma">18</set>
+			<set name="ac">11</set>
+			<set name="hp">19 (3d8+6)</set>
+			<set name="speed">15 ft., climb 30 ft.</set>
+			<set name="languages">Common</set>
+			<set name="skills">Athletics +5, Perception +3</set>
+			<set name="type">Duplicate of Player</set>
+			<set name="size">Small</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1/2</set>
+			<set name="traits">ID_WOTC_PHB_COMPANION_TRAIT_MINIME_COPYCAT</set>
+			<set name="actions">ID_WOTC_PHB_COMPANION_ACTION_MINIME_GROWL,ID_WOTC_PHB_COMPANION_ACTION_MINIME_FIST,ID_WOTC_PHB_COMPANION_ACTION_MINIME_KICK</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="19" bonus="base" />
+			<stat name="companion:speed" value="15" bonus="base" />
+			<stat name="companion:speed:climb" value="30" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Copy-Cat" type="Companion Trait" source="Angus H" id="ID_WOTC_PHB_COMPANION_TRAIT_MINIME_COPYCAT">
+		<description>
+			<p>The Minime is a splitting image of its owner, it changes when its owner changes and will look the same, no matter who or what.</p>
+		</description>
+		<sheet>
+			<description>The Minime is a splitting image of its owner, it changes when its owner changes and will look the same, no matter who or what.</description>
+		</sheet>
+	</element>
+	<element name="Growl" type="Companion Action" source="Angus H" id="ID_WOTC_PHB_COMPANION_ACTION_MINIME_GROWL">
+		<description>
+			<p>The small creature steps forward and growls at the target</p>
+		</description>
+		<sheet>
+			<description>The small creature steps forward and growls at the target</description>
+		</sheet>
+	</element>
+	<element name="Fist" type="Companion Action" source="Angus H" id="ID_WOTC_PHB_COMPANION_ACTION_MINIME_FIST">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</description>
+		</sheet>
+	</element>
+	<element name="Kick" type="Companion Action" source="Angus H" id="ID_WOTC_PHB_COMPANION_ACTION_MINIME_KICK">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, range 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, range 10 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</description>
+		</sheet>
+	</element>
+</elements>

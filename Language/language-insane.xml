@@ -1,0 +1,16 @@
+<elements>
+
+
+	<element name="Insane" type="Language" source="Angus H" id="ID_LANGUAGE_INSANE">
+		<supports>Exotic</supports>
+		<description>
+			<p>ska boop ba diddle dump po ta BOO</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">#$%^</set>
+			<set name="script">Crazy</set>
+		</setters>
+	</element>
+
+</elements>
