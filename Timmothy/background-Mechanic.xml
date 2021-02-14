@@ -38,26 +38,13 @@
 			<div element="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY" />
 		</description>
 		<setters>
-			<set name="short">Deception, Stealth, Gaming Set, Thieves’ Tools</set>
+			<set name="short">Perception, Technology, common clothes, Tinker's Tools</set>
 		</setters>
 		<sheet display="false" />
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
-			<select type="Proficiency" name="Gaming Set (Criminal)" supports="Gaming Set" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
-			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
-			<select type="Background Variant" name="Variant Criminal" supports="Variant Criminal" optional="true" />
-			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
-			<select type="List" name="Criminal Specialty" optional="true">
-				<item id="1">Blackmailer</item>
-				<item id="2">Burglar</item>
-				<item id="3">Enforcer</item>
-				<item id="4">Fence</item>
-				<item id="5">Highway robber</item>
-				<item id="6">Hired killer</item>
-				<item id="7">Pickpocket</item>
-				<item id="8">Smuggler</item>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_MECHANIC_GREASE_MONKEY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			</select>
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">I see a problem and I immediately want to fix it.</item>
