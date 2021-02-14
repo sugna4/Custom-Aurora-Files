@@ -3,9 +3,9 @@
 	<info>
 		<name>Mechanic</name>
 		<description>Mechanic Background</description>
-		<author>Wizards of the Code</author>
+		<author url="">Wizards of the Code</author>
 		<update version="0.0.7">
-			<file name="background-Mechanic.xml"/>
+			<file name="background-Mechanic.xml" url=""/>
 		</update>
 	</info>
 
