@@ -1,6 +1,6 @@
 <elements>
 
-<element name="Falcon Punch" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FALCON_PUNCH">
+<element name="Falcon Punch" type="Spell" source="Angus H" id="ID_PHB_SPELL_FALCON_PUNCH">
   <supports>Sorcerer, Wizard, Artificer</supports>
   <description>
     <p>Scream "FALCON PUNCHH" in the direction of your DM, your next weapon attack during the duration of the spell, hits with the force of 1000 falcons. The attacks deals an extra 1d6 fire damage and the creature must succeed a strength saving throw or else be knocked prone or pushed 5ft away (player choice). A large or larger creature has advantage on this saving throw however. </p>

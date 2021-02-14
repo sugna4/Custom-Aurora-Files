@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mechanic</name>
+		<description>Mechanic Background</description>
+		<author>Wizards of the Code</author>
+		<update version="0.0.7">
+			<file name="background-Mechanic.xml"/>
+		</update>
+	</info>
+
+	<element name="Mechanic" type="Background" source="Angus H" id="ID_BACKGROUND_MECHANIC">
+		<description>
+			<p>The world is built and run by machines, and the machines are run by you. You are the grease in the vast clockwork that keeps modern society functioning smoothly. Without you, society crumbles to dust. Or someone just hires your replacement. After all, you're just as replaceable as any piece of Equipment.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Perception, Technology</li>
+				<li><strong>Tool Proficiencies:</strong> Tinker's Tools and one type of vehicle.</li>
+				<li><strong>Equipment:</strong> A set of grease-stained common clothes, a set of tinker's tools and a credit stick with 1,000 credits</li>
+			</ul>
+			<h5>MECHANIC SPECIALTY</h5>
+			<p>While you're pretty familiar with a variety of machinery and technologies, you specialise in a certain tradecraft. You may be a member of a union for your trade. You can select your specialty from the table below or roll to select it randomly</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d8</td><td>Specialty</td></tr>
+				</thead>
+				<tr><td>1</td><td>Automotive</td></tr>
+				<tr><td>2</td><td>Aircraft</td></tr>
+				<tr><td>3</td><td>Robotics</td></tr>
+				<tr><td>4</td><td>Manufacturing</td></tr>
+				<tr><td>5</td><td>Explosives</td></tr>
+				<tr><td>6</td><td>Electronics</td></tr>
+				<tr><td>7</td><td>Weapons</td></tr>
+				<tr><td>8</td><td>Plumber</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_MECHANIC_GREASE_MONKEY" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Mechanics are typically a level-headed bunch willing to get their hands dirty in order to get the job done. They are resourceful, inventive and capable of approaching problems from different angles</p>
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I see a problem and I immediately want to fix it.</item>
+				<item id="2">People cant be trusted, not like machines can</item>
+				<item id="3">I speak in a lot of jargon that most people dont understand</item>
+				<item id="4">Like me, machines have a lot of 'character'</item>
+				<item id="5">I speak slowly because there is no need to rush</item>
+				<item id="6">A machine's design can always be improved, just like myself</item>
+				<item id="7">Im proud of my work, so I can't help showing off</item>
+				<item id="8">I don't mind getting a little dirty, or even a lot.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Scale. Always build it bigger, stronger, and more baddass. (Chaotic)</item>
+				<item id="2">By the Books. Safety first isnt just a motto, its a way of life. (Lawful)</item>
+				<item id="3">Cooperation. Together, we can build a better world for all. (Good)</item>
+				<item id="4">Automation. The world would run more smoothly if machines ran everything. (Lawful)</item>
+				<item id="5">Determination. Hard work and a can-do attitude will get you anywhere (Any)</item>
+				<item id="6">Fail Forward. A catastrophe malfunction is just another opportunity to learn (Chaotic)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">Someone sabotaged a machine I built and caused a disaster</item>
+				<item id="2">A family member taiught me everything that I know, but they vanished without warning.</item>
+				<item id="3">A machine I created magically gained sentience, and now is on a rampage. I must stop it.</item>
+				<item id="4">I'm deep in debt and I wont breathe easy until I'm free of it.</item>
+				<item id="5">A stole  my greatest designs, and I cant risk anyone knowing.</item>
+				<item id="6">People dont realise it yet, but they need my new invention to perfect their lives.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">A approach people and machines in the same way</item>
+				<item id="2">When something doesnt work the way it should, I get mad</item>
+				<item id="3">I refuse to accept that I may have made a mistake</item>
+				<item id="4">I need to break things open to see how they work</item>
+				<item id="5">I'm a perfectionist to the extreme</item>
+				<item id="6">I refuse to let other people help me, whether I need it or not.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Grease Monkey" type="Background Feature" source="Angus H" id="ID_BACKGROUND_FEATURE_MECHANIC_GREASE_MONKEY">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You always know where you can get access to a car garage, a machinist shop, a robotics lab, or other similar facilites. When you work on a mcahine or vehicle with other mechanics nearby, they will speculate about what's broken, tell you about the mistakes you're making, and assist you with the project. You always know where to find the parts needed for vehicle modifications, weapon accessories, and other equipment, no matter how obscure. </p>
+		</description>
+		<sheet alt="Grease Monkey">
+			<description>You always know where to find facilties, parts or qualified helpersfor whatever project you are working on.</description>
+		</sheet>
+	</element>
+</elements>
