@@ -35,7 +35,7 @@
 			<div element="ID_BACKGROUND_FEATURE_MECHANIC_GREASE_MONKEY" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>
 			<p>Mechanics are typically a level-headed bunch willing to get their hands dirty in order to get the job done. They are resourceful, inventive and capable of approaching problems from different angles</p>
-			<div element="" />
+			
 		</description>
 		<setters>
 			<set name="short">Perception, Technology, common clothes, Tinker's Tools</set>
