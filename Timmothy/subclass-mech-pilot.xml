@@ -31,7 +31,7 @@
 		<description>
 			<p>You can adjust your armour for a given combat situation. When you create your battle mech, choose one of the following modes: Hellion, Valkyrie or Titan. The mode you choose gives you special benefits while you wear the battle mech, and determines its properties as armour per the Battle Mech Armour table. You can change your battle mech's mode whenever you finish a short or long rest, provided you have tinker's tools in hand.</p>
 		</description>
-		<sheet display="false">
+		<sheet display="true">
 			<description>Choose Hellion, Valkyrie or Titan. You can change mode every short or long rest.</description>
 		</sheet>
 	</element>
@@ -50,7 +50,7 @@
 				<tr><td>17th</td><td><em>steel wind strike, teleportation circle</em></td></tr>
 			</table>
 		</description>
-		<sheet display="false">
+		<sheet display="true">
 			<description>You always have certain spells prepared after you reach particular levels in this class, as shown in the Mech Pilot Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</description>
 		</sheet>
 		<rules>
