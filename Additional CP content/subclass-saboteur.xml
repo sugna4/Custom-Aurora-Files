@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.6">
+			<file name="subclass-mech-pilot.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Saboteur" type="Archetype" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_ROGUE_SABOTEUR">
+		<supports>Roguish Archetype</supports>
+		<description>
+			<p>There are countless situations where sabotage, terrorism, catastrophic failure, and bombings have changed the course of history. A true Saboteur knows that any goal is achievable with enough explosives. If a job has a car that needs stopping, a skyscraper that needs dropping, or a person that needs popping, then look no further. The real challenge for the Sabotuer is knowing when to stop. Some Saboteurs let the force multpliers at their fingertips go to their head, becoming a mad bomber. In these cases, self-destruction is inevitable, but at least its always one hell of a fireworks show.</p>
+			<div element="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_BOMBARDIER" />
+			<div element="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_HAIR_TRIGGER" />
+			<div element="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_BLAST_JUMPER" />
+			<div element="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_EMERGENT_ORDANANCE" />
+			<div element="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_MAD_BOMBER" />
+		</description>
+		<sheet display="false">
+			<description>a Saboteur can destroy anything, but get carried away quickly</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_BOMBARDIER" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_HAIR_TRIGGER" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_BLAST_JUMPER" level="9" />
+			<grant type="Archetype Feature" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_EMERGENT_ORDANANCE" level="13" />
+			<grant type="Archetype Feature" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_MAD_BOMBER" level="17" />
+		</rules>
+	</element>
+	<element name="Bombardier" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_BOMBARDIER">
+		<description>
+			<p>at 3rd level, you gain proficiency with the grenade launcher, rocket launcher, thumper and demolitionist's tools. When you make an attack with a blast weapon with which you are proficient, you can choose which targets other than the primary target are affected by the blast weapon properties. You also gain an additional way to use your sneak attack, you can use sneak attack against objects and vehicles as long as you dont have disadvantage on the attack roll.</p>
+		</description>
+		<sheet display="true">
+			<description>Gain proficiency with explosives and gain the ability to use sneak attack on objects and vehicle</description>
+		</sheet>
+	</element>
+	<element name="Emergent Ordnance" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_SABOTEUR_EMERGENT_ORDANANCE">
+		<description>
+			<p>Starting at 13rd level, using your demolitionist tools, you can create special improvised devices</p>
+			<h5 class="caption">MECH PILOT SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Artificer Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>magic missle, shield</em></td></tr>
+				<tr><td>5th</td><td><em>gust of wind, shatter</em></td></tr>
+				<tr><td>9th</td><td><em>lightning bolt, thunder step</em></td></tr>
+				<tr><td>13th</td><td><em>fire shield, storm sphere</em></td></tr>
+				<tr><td>17th</td><td><em>steel wind strike, teleportation circle</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>You always have certain spells prepared after you reach particular levels in this class, as shown in the Mech Pilot Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSLE" spellcasting="Artificer" level="3" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHIELD" spellcasting="Artificer" level="3" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" spellcasting="Artificer" level="5" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHATTER" spellcasting="Artificer" level="5" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_lIGHTNING_BOLT" spellcasting="Artificer" level="9" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_THUNDER_STEP" spellcasting="Artificer" level="9" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" spellcasting="Artificer" level="13" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STORM_SPHERE" spellcasting="Artificer" level="13" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STEEL_WIND_STRIKE" spellcasting="Artificer" level="17" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" spellcasting="Artificer" level="17" prepared="true" />
+		</rules>
+	</element>
+	<element name="Battle Mech" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_MECHPILOT_BATTLE_MECH">
+		<description>
+			<p>At 3rd level, your knowledge of arcane mechanics has allowed you to develop a shophisticated mechanical suit that you pilot into battle. Over the course of a long rest, you can use your tinker's tools to create a battle mech, which functions as a magical suit of armour.</p>
+			<p>You gain the following benefits while wearing the battle mech: </p>
+			<p class="indent">When you attack with a weapon, you can use your Intelligence modifer, instead of Strength or Dexterity modifer, for the attack and damage rolls.</p>
+			<p class="indent">You count as one size larger when determining your carrying capacity and the weight you can pusgh, drag, or lift.</p>
+			<p class="indent">You gain proficiency with martial weapons</p>
+		</description>
+	</element>
+	<element name="Extra Attack" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_MECHPILOT_EXTRA_ATTACK">
+		<description>
+			<p>Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice starting at 5th Level</description>
+		</sheet>
+	</element>
+	<element name="Overdrive" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_MECHPILOT_OVERDRIVE">
+		<description>
+			<p>starting at 9th level, you can push your battle mech to its limits. As an action, you can activate your battle mech's Overdrive ability, which grants you effects based on its mode, as shown below. This ability requires a loud vocal component. Once you have used a mode's Overdrive abilty, you cannot use that mode's Overdrive ability again until you have finished a long rest</p>
+			<ul>
+				<li>Hellion. You gain advantage on your ranged weapon attacks for 1 minute</li>
+				<li>Valkyrie. You cast the haste spell on yourself without verbal, somatic, or material components and without requiring your concentration.</li>
+				<li>Titan. You cast the enlarge/reduce spell on yourself without verbal, somatic, or material components and without requiring your concentration. While you are under the effect of the spell, you gain temporary hit points equal to your artificer level at the end of each turn. When you use your Rebuff feature against a target, you can deal 1d6 thunder damage to every target of your choice within 10ft of it.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>From 9th level, use this abilty to gain effects dependent on your battle mech mode.</description>
+		</sheet>
+	</element>
+	<element name="Air Supremacy" type="Archetype Feature" source="Angus H" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_MECHPILOT_AIR_SUPREMACY">
+		<description>
+			<p>By 15th level, Your battle mech can take to the skies and unleash its full potential. You have a flying speed equal to your current walking speed. Additionally, your battle mech gains benefits based on its mode, as shown below.</p>
+			<ul>
+				<li>Hellion. When you hit a target with a ranged weapon attack, you can deal an extra 1d4 cold, fire, lightning or thunder damage (your choice) to that target.</li>
+				<li>Valkyrie. When you use your Blitz feature, you instead deal an extra 1d8 lightning damage for every 10ft you move in a straight line toward a target before hitting it with a weapong attack, to a maximum of 4d8</li>
+				<li>Titan. When you use your Rebuff feature, to push a creature away from you, you can instead choose to knock them prone.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				<li>Hellion. When you hit a target with a ranged weapon attack, you can deal an extra 1d4 cold, fire, lightning or thunder damage (your choice) to that target.</li>
+				<li>Valkyrie. When you use your Blitz feature, you instead deal an extra 1d8 lightning damage for every 10ft you move in a straight line toward a target before hitting it with a weapong attack, to a maximum of 4d8</li>
+				<li>Titan. When you use your Rebuff feature, to push a creature away from you, you can instead choose to knock them prone.</li>
+			</description>
+		</sheet>
+	</element>
+</elements>
